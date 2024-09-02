@@ -5,8 +5,8 @@ import InfoCard from './InfoCard';
 function ActivityButton({ number, description }) {
   const path = number === 4 ? "/actividad4": number === 6 ? "/collage-interactivo"
    : number === 7 ? "/actividad7" : number === 8 ? "/actividad8": number === 9 ? "/actividad9": number===10?"/FODA" :
-   number== 11 ? "/catwda" : number == 12 ? "/ishikawa": number == 13 ? "/Pareto": number == 14 ? "/6Sombreros": number == 15 ? "/resumen" : number == 16 ? "/Google"
-   : number == 17 ? "/Detona": "#";
+   number=== 11 ? "/catwda" : number === 12 ? "/ishikawa": number === 13 ? "/Pareto": number === 14 ? "/6Sombreros": number === 15 ? "/resumen" : number === 16 ? "/Google"
+   : number === 17 ? "/Detona": "#";
   
   return (
     <Link 
