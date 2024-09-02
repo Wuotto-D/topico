@@ -1,7 +1,7 @@
 import React from 'react';
 import InfoCard from './InfoCard';
 
-function Actividad7() {
+function google() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6 text-center">Actividad 8</h1>
@@ -34,7 +34,7 @@ Creo que es fundamental que como sociedad reflexionemos sobre el papel que quere
   );
 }
 
-export default Actividad7;
+export default google;
 
 
 

@@ -15,6 +15,7 @@ import Pareto from './Pages/Pareto';
 import Sombreros from './Pages/6Sombreros'
 import Resumen from './Pages/Resumen'
 import Google from './Pages/google'
+import Detona from './Pages/Detona'
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <Route path="/6Sombreros" element={ <Sombreros/> }/>
             <Route path="/Resumen" element={ <Resumen/> }/>
             <Route path="/Google" element={ <Google/> }/>
+            <Route path="/Detona" element={<Detona/>}/>
 
           </Routes>
         </main>

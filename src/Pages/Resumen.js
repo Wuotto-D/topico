@@ -1,7 +1,7 @@
 import React from 'react';
 import InfoCard from './InfoCard';
 
-function Actividad7() {
+function Resumen() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6 text-center">Actividad 8</h1>
@@ -27,4 +27,4 @@ En el video de Mejía Madrid denuncia la persistente influencia de un grupo de e
   );
 }
 
-export default Actividad7;
+export default Resumen;
