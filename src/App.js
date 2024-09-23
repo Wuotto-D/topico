@@ -16,6 +16,7 @@ import Sombreros from './Pages/6Sombreros'
 import Resumen from './Pages/Resumen'
 import Google from './Pages/google'
 import Detona from './Pages/Detona'
+import Collage2 from './Pages/Collage2'
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
             <Route path="/Resumen" element={ <Resumen/> }/>
             <Route path="/Google" element={ <Google/> }/>
             <Route path="/Detona" element={<Detona/>}/>
+            <Route path="/Collage2" element={<Collage2/>}/>
 
           </Routes>
         </main>
