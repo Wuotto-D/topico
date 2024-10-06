@@ -17,6 +17,8 @@ import Resumen from './Pages/Resumen'
 import Google from './Pages/google'
 import Detona from './Pages/Detona'
 import Collage2 from './Pages/Collage2'
+import Tabla from './Pages/Tabla'
+import Empresario from './Pages/Empresario'
 
 function App() {
   return (
@@ -41,6 +43,9 @@ function App() {
             <Route path="/Google" element={ <Google/> }/>
             <Route path="/Detona" element={<Detona/>}/>
             <Route path="/Collage2" element={<Collage2/>}/>
+            <Route path="/Tabla" element={<Tabla/>}/>
+            <Route path="/Empresario" element={<Empresario/>}/>
+
 
           </Routes>
         </main>
