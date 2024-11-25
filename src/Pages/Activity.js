@@ -7,7 +7,7 @@ function ActivityButton({ number, description }) {
    : number === 7 ? "/actividad7" : number === 8 ? "/actividad8": number === 9 ? "/actividad9": number===10?"/FODA" :
    number=== 11 ? "/catwda" : number === 12 ? "/ishikawa": number === 13 ? "/Pareto": number === 14 ? "/6Sombreros": number === 15 ? "/resumen" : number === 16 ? "/Google"
    : number === 17 ? "/Detona": number===18 ? "/Collage2": number === 19 ? "/Tabla": number===20 ? "/Empresario": number ===21 ? "/Arquetipos": 
-   number===22?"/InteligenciaEmocional": number === 23 ? "/PaisesF":"#";
+   number===22?"/InteligenciaEmocional": number === 23 ? "/PaisesF": number === 24 ? "/Video":"#";
   
   return (
     <Link 
@@ -31,27 +31,28 @@ function Actividades() {
     "Yokoi Kenji",
     "Carlos Kasuga",
     "Mentes brillantes.",
-    "FODA",
-    "CAWTDA",
-    "Ishikawa",
-    "Pareto",
-    "Sombreros",
+    "Actividad FODA",
+    "Actividad CAWTDA",
+    "Actividad Ishikawa",
+    "Actividad Pareto",
+    "Actividad Sombreros",
     "Resumen",
-    "Google",
-    "Detona",
+    "Resumen del video de google",
+    "Resumen del detona",
     "Collage 2",
-    "Tabla",
-    "Empresario",
-    "Arquetipo",
+    "Tabla granses empresarios",
+    "Empresario ideal",
+    "Arquetipos sistematicos",
     "Inteligencia emocional en la directiva",
-    "Actividades Libro ¿Por qué fracasan los paises?"
+    "Actividades Libro ¿Por qué fracasan los paises?",
+    "Video reseña Enfocate"
   ];
   
   return (
     <div className="container mx-auto px-6 py-8 bg-gray-900 min-h-screen">
       <h2 className="text-3xl font-light text-gray-100 mb-8 text-center">Actividades</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12,13,14,15,16,17,18, 19, 20,21,22,23].map((num) => (
+        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12,13,14,15,16,17,18, 19, 20,21,22,23,24].map((num) => (
           <ActivityButton 
             key={num} 
             number={num} 

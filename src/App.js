@@ -25,6 +25,7 @@ import MusicIA from './Pages/MusicIA'
 import HombreTierra from './Pages/HombreTierra'
 import RB from './Pages/RB'
 import PaisesF from './Pages/PaisesF'
+import Video from './Pages/Video'
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
             <Route path="/HombreTierra" element = {<HombreTierra/>}/>
             <Route path="/RB" element = {<RB/>}/>
             <Route path="/PaisesF" element = {<PaisesF/>}/>
+            <Route path="/Video" element = {<Video/>}/>
 
           </Routes>
         </main>
