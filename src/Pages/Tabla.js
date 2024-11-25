@@ -1,56 +1,59 @@
 import React from 'react';
 import InfoCard from './InfoCard';
 
-
 const Tabla = () => {
   const tableContainerStyle = {
     padding: '20px',
-    backgroundColor: '#f0f4f8',
-    borderRadius: '10px',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    backgroundColor: '#1c1c1e',
+    borderRadius: '12px',
+    maxWidth: '1000px',
+    margin: '0 auto',
   };
 
   const titleStyle = {
     textAlign: 'center',
-    color: '#333',
-    fontSize: '28px',
-    fontFamily: 'Arial, sans-serif',
+    color: '#ffffff',
+    fontSize: '24px',
+    fontWeight: '300',
+    fontFamily: 'Helvetica, Arial, sans-serif',
     marginBottom: '20px',
   };
 
   const tableStyle = {
     width: '100%',
     borderCollapse: 'collapse',
-    margin: '0 auto',
-    fontFamily: 'Arial, sans-serif',
+    fontFamily: 'Helvetica, Arial, sans-serif',
   };
 
   const theadStyle = {
-    backgroundColor: '#4a90e2',
-    color: 'white',
+    backgroundColor: '#2c2c2e',
+    color: '#f2f2f7',
   };
 
   const thTdStyle = {
-    padding: '12px 15px',
-    border: '1px solid #ddd',
+    padding: '14px',
+    borderBottom: '1px solid #3a3a3c',
     textAlign: 'left',
+    color: '#e5e5ea',
   };
 
   const tbodyTrEvenStyle = {
-    backgroundColor: '#f9f9f9',
+    backgroundColor: '#2c2c2e',
   };
 
   const tbodyTrHoverStyle = {
-    backgroundColor: '#f1f1f1',
+    backgroundColor: '#3a3a3c',
   };
 
   const thStyle = {
-    fontSize: '16px',
+    fontSize: '15px',
+    fontWeight: '500',
     textTransform: 'uppercase',
   };
 
   const tdStyle = {
     fontSize: '14px',
+    fontWeight: '400',
   };
 
   return (
@@ -59,10 +62,10 @@ const Tabla = () => {
       <table style={tableStyle}>
         <thead style={theadStyle}>
           <tr>
-            <th style={{...thTdStyle, ...thStyle}}>Aspecto</th>
-            <th style={{...thTdStyle, ...thStyle}}>Lorenzo Servitje (Bimbo)</th>
-            <th style={{...thTdStyle, ...thStyle}}>Ricardo Salinas Pliego (Grupo Salinas)</th>
-            <th style={{...thTdStyle, ...thStyle}}>Emilio Azcárraga Jean (Televisa)</th>
+            <th style={{ ...thTdStyle, ...thStyle }}>Aspecto</th>
+            <th style={{ ...thTdStyle, ...thStyle }}>Lorenzo Servitje (Bimbo)</th>
+            <th style={{ ...thTdStyle, ...thStyle }}>Ricardo Salinas Pliego (Grupo Salinas)</th>
+            <th style={{ ...thTdStyle, ...thStyle }}>Emilio Azcárraga Jean (Televisa)</th>
           </tr>
         </thead>
         <tbody>
@@ -123,7 +126,6 @@ const Tabla = () => {
         </tbody>
       </table>
       <InfoCard />
-
     </div>
   );
 };
