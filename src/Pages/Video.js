@@ -3,7 +3,7 @@ import InfoCard from './InfoCard';
 
 function Video() {
   const videos = [
-    '/images/enfocate.mp4',
+    '/images/enfocatee.mp4',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
